@@ -23,6 +23,8 @@ Run re-frisk in terminal
 
 Build and run your app
 
+If you see websocket error add `yarn add websocket` package
+
 Open re-frisk in browser at http://localhost:4567
 
 ENJOY!
