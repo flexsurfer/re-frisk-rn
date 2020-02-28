@@ -27,4 +27,11 @@ If you see websocket error add `yarn add websocket` package
 
 Open re-frisk in browser at http://localhost:4567
 
+When remote debugging on an Android device you might need to enable reverse socket connections on port 4567:
+
+```bash
+adb reverse tcp:4567 tcp:4567
+```
+
 ENJOY!
+
