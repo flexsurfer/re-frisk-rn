@@ -1,4 +1,4 @@
-(defproject re-frisk-rn "0.1.0"
+(defproject re-frisk-rn "0.1.1"
   :description "Simple debugging tool for React Native re-frame apps. **shadow-cljs compatible**."
   :url "https://github.com/flexsurfer/re-frisk-rn"
   :license {:name "Eclipse Public License"

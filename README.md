@@ -6,9 +6,16 @@ Simple debugging tool for React Native re-frame apps. **shadow-cljs compatible**
 
 ## Usage
 
-Add `[re-frisk-rn "0.1.0"]` dependency to your project.
+Add `[re-frisk-rn "0.1.1"]` dependency to your project.
 
 Enable re-frisk in your RN app:
+
+```clojure
+:devtools   {...           
+             :preloads [re-frisk-rn.preload]}
+```
+
+OR
 
 ```clojure
 (:require [re-frisk-rn.core :as rfr])
@@ -16,6 +23,7 @@ Enable re-frisk in your RN app:
 (defn init []
   (rfr/enable {:on-init #(rn/register-nav-comp "yourapp" root-stack)}))
 ```
+
 
 Run re-frisk in terminal
 
