@@ -1,5 +1,8 @@
 # re-frisk-rn
 
+#THIS REPO ISN'T MAINTANIED ANYMORE you can find re-frisk-remote here https://github.com/flexsurfer/re-frisk
+
+
 Simple debugging tool for React Native re-frame apps. **shadow-cljs compatible**.
 
 [![Clojars](https://img.shields.io/clojars/v/re-frisk-rn.svg)](https://clojars.org/re-frisk-rn)
