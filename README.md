@@ -1,6 +1,4 @@
-# re-frisk-rn
-
-#THIS REPO ISN'T MAINTANIED ANYMORE you can find re-frisk-remote here https://github.com/flexsurfer/re-frisk
+# THIS REPO ISN'T MAINTANIED ANYMORE you can find re-frisk-remote here https://github.com/flexsurfer/re-frisk
 
 
 Simple debugging tool for React Native re-frame apps. **shadow-cljs compatible**.
